@@ -1,8 +1,20 @@
 # MaktabkhoonehDownloader
-this script help you download your favorite videos from maktabkhooneh.ir
-## how to use:
-you can use it like this:
-./maktabDownloader.sh [course page address] [hq/lq] [where to save] [number of video/number of first video] [number of last video]
+this script help you download your favorite videos from maktabkhooneh.org
+
+
+## Usage for one Video:
+  ./maktabDownloader.sh [course page address] [hq/lq] [Location to Save ] [number of video]
+  
+  
+##Usage for Multiply Videos:
+    ./maktabDownloader.sh [course page address] [hq/lq] [Location to Save ] [first Video Number] [Last Video Number]
+   
+   
+###Example:
+    ./maktabDownloader.sh http://maktabkhooneh.org/course/irani-mnarmafzar hq /home/user/Data 1 5
+
+
+
 #### hq/lq
 choose hq for high quality video downloads
 
